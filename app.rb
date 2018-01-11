@@ -9,6 +9,12 @@ class App < Sinatra::Base
 
   post '/team' do
     "#{params[:name]}"
+    "#{params[:coach]}"
+    "#{params[:pg]}"
+    "#{params[:sg]}"
+    "#{params[:sf]}"
+    "#{params[:pf]}"
+    "#{params[:c]}"
     erb :team
   end
 
