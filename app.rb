@@ -15,6 +15,7 @@ class App < Sinatra::Base
     "Small Forward: #{params[:sf]}"
     "Power Forward: #{params[:pf]}"
     "Center: #{params[:c]}"
+    
     erb :team
   end
 
