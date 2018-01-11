@@ -16,7 +16,6 @@ class App < Sinatra::Base
     "Power Forward: #{params[:pf]}"
     "Center: #{params[:c]}"
     
-    erb :team
   end
 
 end
