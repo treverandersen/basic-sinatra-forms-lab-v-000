@@ -8,13 +8,13 @@ class App < Sinatra::Base
   end
 
   post '/team' do
-    "Team Name: #{params[:teamName]}"
+    "Team Name: #{params[:name]}"
     "Coach: #{params[:coach]}"
-    "Point Guard: #{params[:pointGuard]}"
-    "Shooting Guard: #{params[:shootingGuard]}"
-    "Small Forward: #{params[:smallForward]}"
-    "Power Forward: #{params[:powerForward]}"
-    "Center: #{params[:center]}"
+    "Point Guard: #{params[:pg]}"
+    "Shooting Guard: #{params[:sg]}"
+    "Small Forward: #{params[:sf]}"
+    "Power Forward: #{params[:pf]}"
+    "Center: #{params[:c]}"
   end
 
 end
